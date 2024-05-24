@@ -9,9 +9,9 @@ String token="Bearer EAAXZAE7ZCT4v8BO705vpb8yzTZBIZAREARjO1UITmvV0HCgDR6tMpjDUck
 //COLOCAMOS LA URL A DONDE SE ENVIAN LOS MENSAJES DE WHATSAPP
 String servidor = "https://graph.facebook.com/v18.0/227161703822746/messages";
 //CREAMOS UNA JSON DONDE SE COLOCA EL NUMERO DE TELEFONO Y EL MENSAJE PARA CUANDO ESTE LA PUERTA ABIERTA
-String payload = "{\"messaging_product\":\"whatsapp\",\"to\":\"573242206549\",\"type\":\"text\",\"text\": {\"body\": \"la puerta se ha abierto\"}}";
+String payload = "{\"messaging_product\":\"whatsapp\",\"to\":\"aqui va el numero de celular\",\"type\":\"text\",\"text\": {\"body\": \"la puerta se ha abierto\"}}";
 //CREAMOS UNA JSON DONDE SE COLOCA EL NUMERO DE TELEFONO Y EL MENSAJE PARA CUANDO ESTE LA PUERTA CERRADA
-String payloadC = "{\"messaging_product\":\"whatsapp\",\"to\":\"573242206549\",\"type\":\"text\",\"text\": {\"body\": \"la puerta esta cerrada\"}}";
+String payloadC = "{\"messaging_product\":\"whatsapp\",\"to\":\"aqui va el numero de celular\",\"type\":\"text\",\"text\": {\"body\": \"la puerta esta cerrada\"}}";
 //PIN DEL SENSOR DE MOVIMIENTO
 const int pinSensorMov = 15;
 //ESTADO DEL SENSOR
